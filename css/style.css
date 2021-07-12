@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo');
+body
+{
+    font-family: 'cairo';
+    padding: 0;
+    margin:0;
+    background-color: white;
+    direction: rtl;
+}
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>section {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header{
+    background: #322b2d;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-bottom: 3px solid #b43f60;
+    padding: 0px 120px;
+
+}
+#branding h1 {
+    font-size: 28px;
+}
+nav > ul {
+    margin-top: 0px;
+    list-style-type: none;
+
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+nav > ul > li {
+    float: right;
+    margin-left: 15px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#header .highlight, #header .current a{
+    color: #b43f60
+}
+.current{
+    font-weight: bold;
+}
+
+.button{
+    height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #50474a;
+    color: #b43f60;
+    font-size: 20px;
+    border-color: #50474a;
+    
+}
+#footer{
+    background: #322b2d;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-top: 3px solid #b43f60;
+    padding: 0px 120px;
+    
+}
+#footer p{
+    color:#b43f60;
+    font-weight: lighter;
+    font-size: 20px;
+}
+#boxes{
+    margin-top:20px;
+    padding: 60px 120px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.box{
+    text-align: center;
+    margin-left: 0px;
+    color: #322b2d;
+}
+@media (max-width: 1020px){
+    #boxes{
+        flex-direction: column;
+    }
+}
