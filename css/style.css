@@ -86,7 +86,8 @@ li a{
 }
 #boxes{
     margin-top:20px;
-    padding: 60px 120px;
+    padding: 60px 5px;
+    font-size: 30px;
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -99,7 +100,7 @@ li a{
     margin-left: 0px;
     color: #322b2d;
 }
-@media (max-width: 1020px){
+@media (max-width: 10000px){
     #boxes{
         flex-direction: column;
     }
