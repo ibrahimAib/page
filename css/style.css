@@ -97,11 +97,17 @@ li a{
 }
 .box{
     text-align: center;
-    margin-left: 0px;
+    margin-top: 70px;
     color: #322b2d;
 }
 @media (max-width: 10000px){
     #boxes{
         flex-direction: column;
     }
+}
+a {
+    text-decoration: none ;
+}
+a:hover {
+    text-decoration: underline;
 }
